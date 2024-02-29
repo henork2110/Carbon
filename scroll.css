@@ -1,0 +1,27 @@
+img {
+    opacity: 0.1;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+  
+img.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+body {
+    cursor: url('images/cursor.svg'), auto;
+}
+
+.custom-cursor-element {
+    cursor: url('images/cursor.svg'), auto;
+}
+
+.custom-hover-element:hover {
+    cursor: url('images/cursor_hover.svg'), pointer;
+}
+
+a:hover {
+    cursor: url('images/cursor_hover.svg'), pointer;
+}
